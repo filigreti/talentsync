@@ -49,7 +49,7 @@ const HeroSection = () => {
             <div className="flex items-center gap-2">
               <div className="flex items-center">
                 {Array(5)
-                  .fill()
+                  .fill("")
                   .map((_, index) => (
                     <Image
                       key={index}
