@@ -16,7 +16,7 @@ import { Button } from "@/components/ui/button";
 
 const TopHeader = () => {
   return (
-    <header className=" bg-[#F2F4F7] sticky top-[1px] z-50 px-4 border border-input rounded-full py-3 flex items-center justify-between">
+    <header className=" bg-[#F2F4F7] sticky top-[1px] z-50 px-4 border border-input rounded-full py-3 flex items-center justify-between ">
       <Image src={logo} className="w-[6.1rem]" alt="logo" />
 
       <div>

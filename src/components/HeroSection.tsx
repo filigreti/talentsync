@@ -18,7 +18,7 @@ import star from "../assets/Star.svg";
 
 const HeroSection = () => {
   return (
-    <div className=" grid grid-cols-12 gap-">
+    <div className=" grid grid-cols-12 section-with-images">
       <div className=" col-span-7 w-full flex flex-col   justify-around">
         <h1 className="  text-[3.5rem] text-[#1D2939] leading-[4.05rem]   font-medium  tracking-[-2.5px] ">
           Uniting the world, <br /> one video call at a time
@@ -73,30 +73,52 @@ const HeroSection = () => {
         <div className="bg-[#EFF8FF] custom-shadow rounded-lg p-7  border border-[#B2DDFF]">
           <div className="grid grid-cols-3 gap-6">
             <div className="flex  flex-col items-center justify-end rounded-lg bg-[#FE9C66]">
-              <Image className=" object-contain" src={image1} alt="imageOne" />
+              <Image
+                priority={true}
+                className=" object-contain big-image"
+                src={image1}
+                alt="imageOne"
+              />
             </div>
             <div className="flex  flex-col items-center justify-end rounded-lg bg-[#D6BBFB]">
-              <Image className=" object-contain" src={image2} alt="imageTwo" />
+              <Image
+                priority={true}
+                className=" object-contain big-image"
+                src={image2}
+                alt="imageTwo"
+              />
             </div>
             <div className="flex  flex-col items-center justify-end rounded-lg bg-[#ACDC79]">
               <Image
-                className=" object-contain"
+                priority={true}
+                className=" object-contain big-image"
                 src={image3}
                 alt="imageThree"
               />
             </div>
             <div className="flex  flex-col items-center justify-end rounded-lg bg-[#B3B8DB]">
-              <Image className=" object-contain" src={image4} alt="imageFour" />
+              <Image
+                priority={true}
+                className=" object-contain big-image"
+                src={image4}
+                alt="imageFour"
+              />
             </div>
             <div className="flex  flex-col items-center justify-end rounded-lg bg-[#FEC84A]">
               <Image
-                className=" object-contain rounded-b-lg"
+                priority={true}
+                className=" object-contain big-image rounded-b-lg"
                 src={image5}
                 alt="imageFive"
               />
             </div>
             <div className="flex  flex-col items-center justify-end rounded-lg bg-[#FEA3B4]">
-              <Image className=" object-contain" src={image6} alt="imageSix" />
+              <Image
+                priority={true}
+                className=" object-contain big-image"
+                src={image6}
+                alt="imageSix"
+              />
             </div>
           </div>
 

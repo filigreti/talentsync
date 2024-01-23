@@ -10,8 +10,8 @@ import curvedArrow from "../assets/Hand-drawn arrow.svg";
 
 const MidTopSection = () => {
   return (
-    <div>
-      <div className=" grid grid-cols-12 ">
+    <div className="section-with-images">
+      <div className=" grid grid-cols-12  ">
         <div className=" col-span-7 w-full ">
           <div>
             <Button
@@ -108,10 +108,11 @@ const MidTopSection = () => {
               alt="video-recorder"
             />
             <Image
-              className=" object-contain relative"
+              className=" object-contain relative big-image"
               src={happyFaces}
               alt="video-recorder"
               height={470}
+              priority={true}
             />
           </div>
         </div>
